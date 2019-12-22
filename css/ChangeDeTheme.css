@@ -1,0 +1,33 @@
+.theme-b {
+    margin: 0;
+    background:rgb(53, 50, 50);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.theme-b .titre {
+    color: crimson;
+    background-image: url(/images/nature.jpeg);
+    background-size: cover;
+}
+
+.theme-b .menu {
+    position: fixed;
+    top: 0em;
+    background: rgb(53, 50, 50);
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+.theme-b .menu #nav .liens li a {
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgba(255, 255, 255, 0);
+}
+
+.theme-b #switch-btn {
+    color: rgb(228, 195, 195);
+}

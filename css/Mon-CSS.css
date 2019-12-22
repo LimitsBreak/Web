@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: rgb(182, 228, 171);
+  font-family: fantasy;
+  font-size: 25px;
+  color: rgb(53, 50, 50);
+}
+
+p {
+  font-size: 20px;
+}
+
+h2, h3, h4{
+  text-decoration: underline;
+}
+
+.entete {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.presentation {
+  text-align: center;
+  font-size: 20px;
+}
+
+.titre {
+  padding: 50px;
+  font-size: 60px;
+  color: mediumseagreen;
+  text-align: center;
+  background-image: url(/images/Nature1.jpeg);
+  background-size: cover;
+}
+
+.maphoto {
+  margin-top: -210px;
+  float: right;
+  position: inherit;
+  max-width: 7.5%;
+  height: auto;
+}
+
+a:hover {
+  background-color: #cdc;
+}
+
+a:active {
+  color: #666666;
+}
+
+#nav a:hover:not(.active) {background-color: rgb(66, 153, 45);}
+
+.haut {
+  position: relative;
+  position: right;
+  height: 7%;
+  width: 7%;
+}

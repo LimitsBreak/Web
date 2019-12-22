@@ -1,0 +1,25 @@
+@media screen and (max-width : 750 px) {
+    .maphoto {
+        margin-top: -210px;
+        float: right;
+        position: relative;
+        max-width: 21%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 750 px) {
+
+    #nav a {
+        float: none;
+        width: 100%;
+    }
+
+    #nav a:hover:not(.active) {
+        background-color: rgb(122, 65, 65);
+    }
+
+    #nav a.active {
+        background-color: #4CAF50;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <!-- Début du head -->
+  <head>
+    <title>Me Contacter</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Yang Kommin"/>
+    <meta name="description" content="Voici la page pour me contacter"/>
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="date" content="22/12/2019 France"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/Java/theme-changer.js"></script>
+    <link rel="stylesheet" href="css/Mon-CSS.css"/>
+    <link rel="stylesheet" href="css/ChangeDeTheme.css"/>
+    <link rel="stylesheet" href="css/formulaire.css"/>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/mediaqueries.css" />
+    <link rel="icon" type="image/png" href="http://images4.fanpop.com/image/photos/22100000/The-letter-K-the-letter-k-22188864-2560-2560.jpg"/>
+  </head>
+  <!-- Fin du head -->
+
+  <!-- Début du body -->
+  <body class="theme-b">
+    <header>  <!-- Début du header -->
+      <nav id="nav">  <!--Ici se trouve le début du menu de mon site -->
+        <a href="MaPageHTML.html">Accueil</a>
+        <a href="index.html">Présentation</a>
+        <a href="Travaux-personnels.html">Mes Travaux</a>
+        <a href="Contact.html">Contact</a>
+        <a id="switch-btn">Changer de thème</a>
+      </nav>  <!-- Ici se trouve la fin du menu de mon site -->
+    </header>  <!-- Fin du header -->
+
+    <!--Contenu principale de mon site -->
+    <main>
+      <h1 class="entete">
+        Si vous voulez me contacter voici mon adresse e-mail:
+        <a href="mailto:worldofkommin@gmail.com">Worldofkommin@gmail.com</a>
+      </h1>
+      <form method="POST" enctype="text/plain" action="mailto:worldofkommin@gmail.com">
+        <div>
+          <label for="name">Nom :</label>
+          <input type="text" name="nom" value="" />
+        </div>
+        <div>
+          <label for="Prenom">Prénom :</label>
+          <input type="text" name="prenom" value="" />
+        </div>
+        <div>
+          <label for="msg">Votre commentaire:</label>
+          <textarea name="le-message" rows="6" cols="40"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Envoyer" />
+        </div>
+        <div>
+          <input type="reset" value="Annuler" />
+        </div>
+      </form> <!-- Formulaire pour l'avis des gens sur mon site -->
+    </main>
+    <!-- Fin du contenu principal de mon site -->
+
+    <!-- Footer servant à revenir en haut de page -->
+    <footer>
+      <a href="#top" title="Revenir en haut de page"><img class="haut" src="/images/hautdepage.jpg" alt="Retourner en haut de page" /></a>
+    </footer>
+    <!-- Fin du footer -->
+
+  </body>
+  <!-- Fin du body -->
+
+</html>
